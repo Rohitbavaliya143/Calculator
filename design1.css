@@ -1,0 +1,9 @@
+.fain{
+    display: flex;
+    border: 1px solid black;
+}
+.ni{
+    font-size: 12px;
+    color: rgb(179, 105, 105);
+    border: 0.5px solid black;
+}
