@@ -1,0 +1,44 @@
+**Function in Js							
+	Function Defination
+	function /FunctionName/(/input/){	
+	 //Do some work
+	}
+
+**Function call
+	//functionname();//
+
+
+**Input function 
+	function myfunction(msg)
+	{
+		console.log(msg);
+	}
+console.log("I love js");
+
+**return function
+ 	function sum(w,t){
+    	s=w*t;
+    	return s;
+ 	} 
+	let ty=sum(4,6);
+	console.log(ty);
+	
+**function parameter 'local variable only use on function (scope variable).
+
+**Arrow function
+	const /functionname/=(param1,param2..)/=>/{
+		//do some work//00:47 21/08/2024
+	}
+
+
+**Foreach Lopp in Array
+
+      /syntax->arr.foreach(calBackFunction)
+      ->CalbackFunction:Here,it is a function to execute for each element in the array  				
+      ->A calback is afuntion passed as an argument to another function.	 	
+	//Example
+		let arr = [1,4,5,6,7];
+ 
+               arr.forEach(function tr(val){
+               console.log(val);
+               });
